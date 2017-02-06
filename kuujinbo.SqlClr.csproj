@@ -46,8 +46,8 @@
     <Content Include="usage.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="movies.zip" />
-    <None Include="setup.ps1" />
+    <None Include="powershell\parse-imdb-movies.ps1" />
+    <None Include="powershell\setup.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
